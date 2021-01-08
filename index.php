@@ -1,9 +1,5 @@
 <?php
 
-$age = 17;
-$email = "votre.email@domaine.com";
-$pseudo = "Votre pseudo";
-
 function getIP()
 {
   if (getenv("HTTP_CLIENT_IP") && strcasecmp(getenv("HTTP_CLIENT_IP"), "unknown"))
@@ -112,17 +108,6 @@ color: #FFFFFF;
 
 </style>
 
-<h4> prÃ©nom : <?= $pseudo ?> \\ email : <?= $email ?> \\ Ã¢ge :<?= $age ?> </h4>
-
-<?php
-
-if(isset($_POST['formsend'])){
-		echo "votre pseudo : ", $pseudo ,"<br/>";
-		echo "votre Ã¢ge : ",$_POST['age'] , "<br/>";
-		echo "votre email : ",$_POST['email'];
-	}
-?>
-
 <p id="contact"> webmaster : admin@card-free.xyz </p>
 <!--
 <form>
@@ -135,7 +120,7 @@ if(isset($_POST['formsend'])){
 <footer>
 	<center>
 
-	<small id ="copyr" style="border-color: #FF0000 #00FF00 #0000FF #ffffff; border-style:solid">&copy; Copyright 2020, HexaTeam. Domain by Hex</small>
+	<small id ="copyr" style="border-color: #FF0000 #00FF00 #0000FF #ffffff; border-style:solid">&copy; Copyright 2020, EverSys SAS. Domain by EverSys</small>
 
 	<body oncontextmenu="return false;">
 
