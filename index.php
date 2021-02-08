@@ -108,7 +108,7 @@ color: #FFFFFF;
 
 </style>
 
-<p id="contact"> webmaster : admin@card-free.xyz </p>
+<p id="contact"> contact : N/A </p>
 <!--
 <form>
 	<input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo">
